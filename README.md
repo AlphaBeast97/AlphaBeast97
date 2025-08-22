@@ -59,9 +59,7 @@ Here are a few projects I'm proud of. Check out my repositories for more!
   <p>
     <a href="https://github.com/AlphaBeast97" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
     <a href="https://www.instagram.com/your_instagram_username" target="_blank"><img src="https://img.shields.io/badge/Instagram-E1306C?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/></a>
+    <a href="mailto:ksaad5272@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
   </p>
-  <p>
-    📧 ksaad5272@gmail.com
-  </p>
-</div>
+  </div>
 
