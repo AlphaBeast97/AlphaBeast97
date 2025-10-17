@@ -19,11 +19,11 @@
 
 ### 👨‍💻 About Me
 
-- 🔭 I'm currently working on **AI-powered educational platforms and modern web applications**
-- 🌱 I'm exploring **Next.js, TypeScript, AI integration, Voice AI technology, and real-time applications**
-- 🎯 I specialize in **Full-stack development, AI integration, and self-hosted automation systems**
+- 🔭 I'm passionate about building **innovative web applications and AI-powered solutions**
+- 🌱 I'm constantly exploring **modern web technologies, AI integration, and emerging development practices**
+- 🎯 I specialize in **Full-stack development, AI/ML integration, and automation systems**
 - 📫 How to reach me: **ksaad5272@gmail.com**
-- ⚡ Fun fact: I love building **AI-powered Apps, self-hosted solutions, and Messing with Linux**
+- ⚡ Fun fact: I enjoy creating **intelligent applications, custom environments, and tools that make life easier**
 
 <div align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=AlphaBeast97&theme=tokyonight" alt="GitHub Streak Stats" />
@@ -75,44 +75,26 @@
 
 ---
 
-### 🚀 Featured Projects
+### 🚀 Dynamic Repository Showcase
 
 <div align="center">
 
-#### 🎓 AuraLearn - AI Teaching Platform
-
-**The Future of Personalized Education**
-
 <p>
-  <a href="https://aura-learn-six.vercel.app/" target="_blank">
-    <img src="https://img.shields.io/badge/🌐_Live_Demo-4A90E2?style=for-the-badge&logoColor=white" alt="Live Demo"/>
+  <a href="https://github.com/AlphaBeast97?tab=repositories&sort=updated" target="_blank">
+    <img src="https://img.shields.io/badge/📂_Browse_All_Repositories-2D3748?style=for-the-badge&logo=github&logoColor=white" alt="All Repositories"/>
   </a>
-  <a href="https://github.com/AlphaBeast97/AuraLearn" target="_blank">
-    <img src="https://img.shields.io/badge/📂_Source_Code-2D3748?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/>
+  <a href="https://github.com/AlphaBeast97?tab=stars" target="_blank">
+    <img src="https://img.shields.io/badge/⭐_My_Starred_Projects-FFD700?style=for-the-badge&logo=github&logoColor=black" alt="Starred Projects"/>
   </a>
 </p>
 
-**🎯 Revolutionary AI-powered educational platform with voice-enabled tutors**
+**🔥 Automatically showcasing my latest work and contributions**
 
-- 🤖 **AI Learning Companions** - Custom AI tutors with unique personalities
-- 🎙️ **Voice Conversations** - Natural voice interactions powered by VAPI AI
-- 📚 **Multi-Subject Support** - Math, Science, Languages, History, Coding & more
-- 💼 **Subscription System** - Tiered plans with Clerk billing integration
-- 🎨 **Modern UI/UX** - Built with Next.js 15, React 19, TypeScript & Tailwind CSS
-
-**Tech Stack:** `Next.js` `React` `TypeScript` `Tailwind CSS` `Supabase` `Clerk` `VAPI AI` `Vercel`
+<p>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=AlphaBeast97&repo=AuraLearn&theme=tokyonight&show_owner=true" alt="Featured Repository"/>
+</p>
 
 </div>
-
----
-
-### 📁 Other Notable Projects
-
-| Project               | Description                                                | Tech Stack                 |                                                              Links                                                              |
-| --------------------- | ---------------------------------------------------------- | -------------------------- | :-----------------------------------------------------------------------------------------------------------------------------: |
-| **MegaProject**       | Large-scale automation and system management solution      | `Python` `Docker` `Linux`  |     [![Repo](https://img.shields.io/badge/Repo-2D3748?style=flat&logo=github)](https://github.com/AlphaBeast97/MegaProject)     |
-| **MoviFy**            | Smart media management and watchlist organization platform | `Web Development` `APIs`   |       [![Repo](https://img.shields.io/badge/Repo-2D3748?style=flat&logo=github)](https://github.com/AlphaBeast97/MoviFy)        |
-| **Nexium Assignment** | Advanced university project with complex implementations   | `Programming` `Algorithms` | [![Repo](https://img.shields.io/badge/Repo-2D3748?style=flat&logo=github)](https://github.com/AlphaBeast97/Nexium_Saad_Assign2) |
 
 ---
 
@@ -142,16 +124,16 @@
 
 ---
 
-### 🎯 Current Focus
+### 🎯 What Drives Me
 
 <div align="center">
 
-```
-🚀 Building next-generation AI educational platforms
-🤖 Exploring voice AI
-🎨 Crafting beautiful, accessible user experiences
-🔧 Optimizing full-stack development workflows
-📚 Mentoring and knowledge sharing in tech communities
+```text
+🚀 Building innovative web applications and AI-powered solutions
+🤖 Exploring cutting-edge technologies and development practices
+🎨 Creating intuitive, accessible user experiences
+🔧 Optimizing development workflows and automation
+📚 Contributing to open-source and knowledge sharing
 ```
 
 </div>
