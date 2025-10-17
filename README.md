@@ -114,14 +114,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=AlphaBeast97&theme=tokyo-night&hide_border=true" alt="Activity Graph"/>
 </p>
 
-### 🏆 GitHub Achievements
-
-<p>
-  <img src="https://github-profile-trophy.vercel.app/?username=AlphaBeast97&theme=tokyonight&no-frame=true&margin-w=4" alt="GitHub Trophies"/>
-</p>
-
-</div>
-
 ---
 
 ### 🎯 What Drives Me
