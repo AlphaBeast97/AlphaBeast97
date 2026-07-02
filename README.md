@@ -1,21 +1,5 @@
 <div align="center">
 
-```
-█████╗ ██╗     ██████╗ ██╗  ██╗ █████╗ ██████╗ ███████╗ █████╗ ███████╗
-██╔══██╗██║     ██╔══██╗██║  ██║██╔══██╗██╔══██╗██╔════╝██╔══██╗██╔════╝
-███████║██║     ██████╔╝███████║███████║██████╔╝█████╗  ███████║███████╗
-██╔══██║██║     ██╔═══╝ ██╔══██║██╔══██║██╔══██╗██╔══╝  ██╔══██║╚════██║
-██║  ██║███████╗██║     ██║  ██║██║  ██║██████╔╝███████╗██║  ██║███████╗
-╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝╚══════╝
-
-████████╗ █████╗ ███████╗
-╚══██╔══╝██╔══██╗╚════██║
-   ██║   ╚██████║    ██╔╝
-   ██║    ╚═══██║   ██╔╝ 
-   ██║    █████╔╝   ██║  
-   ╚═╝    ╚════╝    ╚═╝  
-```
-
 # M. Saad Khan
 
 **Full-Stack Developer · AI Enthusiast · Self-Hosting Advocate**
@@ -30,7 +14,7 @@
 
 ### 👨‍💻 About
 
-I build AI-powered full-stack applications — from real-time chat platforms and video conferencing tools to intelligent LMS and recipe generation systems. I work across the stack with Next.js, TypeScript, and Node.js, integrating AI (Gemini, VAPI, n8n) and modern infra (Docker, Clerk, Supabase, MongoDB).
+I build AI-powered full-stack applications from real-time chat platforms and video conferencing tools to intelligent LMS and recipe generation systems. I work across the stack with Next.js, TypeScript, and Node.js, integrating AI (Gemini, VAPI, n8n) and modern infra (Docker, Clerk, Supabase, MongoDB).
 
 ---
 
@@ -100,7 +84,7 @@ I build AI-powered full-stack applications — from real-time chat platforms and
 
 #### Backend & Database
 
-    ![Nodejs](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&hoverColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Socketio](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+    ![Nodejs](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Socketio](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 
 #### AI & ML
 
