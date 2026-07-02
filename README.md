@@ -55,7 +55,7 @@ I build AI-powered full-stack applications — from real-time chat platforms and
  <img src="https://img.shields.io/badge/Stream-FF6B35?style=flat-square" />
  <img src="https://img.shields.io/badge/Clerk-6C5CE7?style=flat-square&logo=clerk&logoColor=white" />
  </p>
- <a href="https://relay-it-two.vercel.app/">🔗 Live Demo</a> · <a href="https://github.com/AlphaBeast97/RelayIt">📦 Source</a>
+ <a href="https://relayit.vercel.app/">🔗 Live Demo</a> · <a href="https://github.com/AlphaBeast97/RelayIt">📦 Source</a>
  </td>
  <td width="50%">
  <h3>💬 Raabta</h3>
