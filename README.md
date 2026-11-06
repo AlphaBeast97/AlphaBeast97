@@ -15,30 +15,21 @@
 
 ## `$ neofetch`
 
-<img align="left" width="200" src="assets/avatar-terminal.png" alt="M. Saad Khan" />
-
-```console
-saad@github
------------
-role    : Full-Stack Developer
-focus   : AI · real-time · infra
-stack   : Next.js · TypeScript · Node.js
-data    : MongoDB · Supabase
-ships   : Docker · Vercel · Render
-status  : building something useful
-```
-
-<br clear="all" />
+<p align="center">
+<img width="470" src="assets/neofetch-card.svg" alt="saad@github neofetch — Full-Stack Developer; AI, real-time, infra; Next.js, TypeScript, Node.js; MongoDB, Supabase; Docker, Vercel, Render; open to software engineering roles" />
+</p>
 
 ## `$ ls -la ~/projects`
 
-| PID | PROCESS | WHAT IT DOES | STACK | LINKS |
-|:---:|:---|:---|:---|:---|
-| `001` | **AuraLearn** | AI-powered SaaS LMS with voice-based tutors, multi-subject support, and subscription billing. | `Next.js` `Supabase` `Clerk` `VAPI` | [live](https://aura-learn-six.vercel.app/) · [src](https://github.com/AlphaBeast97/AuraLearn) |
-| `002` | **MAD Researcher** | Multi-agent deep-research engine that plans, searches, reads, critiques, and writes cited reports. | `React` `Node.js` `MongoDB` `Clerk` | [live](https://mad-researcher-web.onrender.com/) · [src](https://github.com/AlphaBeast97/deep-research-ai-platform) |
-| `003` | **RelayIt** | Full-stack video conferencing with instant meetings, scheduling, recordings, and multiple layouts. | `Next.js` `Stream` `Clerk` | [live](https://relayit.vercel.app/) · [src](https://github.com/AlphaBeast97/RelayIt) |
-| `004` | **Raabta** | Real-time chat with voice notes, media sharing, themes, wallpapers, and dark mode. | `React` `Socket.io` `MongoDB` `Docker` | [live](https://raabta-mm3a.onrender.com/) · [src](https://github.com/AlphaBeast97/raabta) |
-| `005` | **Culinary Canvas** | AI recipe platform with image-to-recipe, ingredient-based generation, and random discovery. | `Next.js` `Gemini` `n8n` `MongoDB` | [live](https://mega-project-livid.vercel.app/) · [src](https://github.com/AlphaBeast97/MegaProject) |
+`001` **AuraLearn**<br>AI SaaS LMS with voice tutors and subscription billing.<br>`Next.js` `Supabase` `VAPI` · [live](https://aura-learn-six.vercel.app/) · [src](https://github.com/AlphaBeast97/AuraLearn)
+
+`002` **MAD Researcher**<br>Multi-agent research engine that plans, searches, and writes cited reports.<br>`React` `Node.js` `MongoDB` · [live](https://mad-researcher-web.onrender.com/) · [src](https://github.com/AlphaBeast97/deep-research-ai-platform)
+
+`003` **RelayIt**<br>Video conferencing with recordings and multiple layouts.<br>`Next.js` `Stream` `Clerk` · [live](https://relayit.vercel.app/) · [src](https://github.com/AlphaBeast97/RelayIt)
+
+`004` **Raabta**<br>Real-time chat with voice notes and media sharing.<br>`React` `Socket.io` `MongoDB` · [live](https://raabta-mm3a.onrender.com/) · [src](https://github.com/AlphaBeast97/raabta)
+
+`005` **Culinary Canvas**<br>AI recipes from photos or ingredients.<br>`Next.js` `Gemini` `MongoDB` · [live](https://mega-project-livid.vercel.app/) · [src](https://github.com/AlphaBeast97/MegaProject)
 
 ## `$ tree ~/stack`
 
@@ -46,8 +37,8 @@ status  : building something useful
 ~/stack
 ├── frontend  → nextjs · react · typescript · tailwind
 ├── backend   → nodejs · express · mongodb · supabase
-├── ai        → gemini · vapi · n8n · stream
-└── infra     → docker · vercel · render · clerk
+├── ai        → gemini · vapi · n8n
+└── infra     → docker · vercel · render · clerk · stream
 ```
 
 <p align="center">
