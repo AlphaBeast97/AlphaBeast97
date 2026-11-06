@@ -160,6 +160,7 @@ def build(user):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--input", help="snapshot JSON from the GitHub GraphQL API")
+    ap.add_argument("--repos", type=int, help="repository count override; GITHUB_TOKEN cannot see private repos")
     ap.add_argument("--out", default="assets/contribution-snake.svg")
     args = ap.parse_args()
 
@@ -167,6 +168,8 @@ def main():
         user = json.loads(Path(args.input).read_text())["data"]["user"]
     else:
         user = fetch()
+    if args.repos is not None:
+        user["repositories"]["totalCount"] = args.repos
 
     svg = build(user)
     out = Path(args.out)
