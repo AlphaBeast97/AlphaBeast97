@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="141" height="26" viewBox="0 0 141 26" role="img" aria-label="LOCATION: PAKISTAN">
+  <rect x="0.5" y="0.5" width="140" height="25" rx="4" fill="#0D1117" stroke="#39FF14" stroke-opacity="0.55"/>
+  <text x="9" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" fill="#8B949E" letter-spacing="0.4" textLength="53.0" lengthAdjust="spacingAndGlyphs">LOCATION</text>
+  <line x1="70" y1="7" x2="70" y2="19" stroke="#30363D"/>
+  <text x="79" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="600" fill="#39FF14" letter-spacing="0.4" textLength="53.0" lengthAdjust="spacingAndGlyphs">PAKISTAN</text>
+</svg>

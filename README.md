@@ -5,10 +5,10 @@
 <img width="100%" src="assets/terminal-boot.gif" alt="Boot sequence" />
 
 <p>
-<img src="https://img.shields.io/badge/STATUS-ONLINE-39FF14?style=flat-square&labelColor=0D1117" alt="Status: online" />
-<img src="https://img.shields.io/badge/LOCATION-PAKISTAN-39FF14?style=flat-square&labelColor=0D1117" alt="Location: Pakistan" />
-<img src="https://img.shields.io/badge/FOCUS-AI_x_FULL--STACK-39FF14?style=flat-square&labelColor=0D1117" alt="Focus: AI and full-stack" />
-<img src="https://img.shields.io/badge/SHELL-ZSH-39FF14?style=flat-square&labelColor=0D1117" alt="Shell: zsh" />
+<img src="assets/pill-status.svg" alt="Status: online" />
+<img src="assets/pill-location.svg" alt="Location: Pakistan" />
+<img src="assets/pill-focus.svg" alt="Focus: AI and full-stack" />
+<img src="assets/pill-shell.svg" alt="Shell: zsh" />
 </p>
 
 </div>

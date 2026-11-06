@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114" height="26" viewBox="0 0 114 26" role="img" aria-label="STATUS: ONLINE">
+  <rect x="0.5" y="0.5" width="113" height="25" rx="4" fill="#0D1117" stroke="#39FF14" stroke-opacity="0.55"/>
+  <text x="9" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" fill="#8B949E" letter-spacing="0.4" textLength="39.8" lengthAdjust="spacingAndGlyphs">STATUS</text>
+  <line x1="57" y1="7" x2="57" y2="19" stroke="#30363D"/>
+  <text x="66" y="17" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="11" font-weight="600" fill="#39FF14" letter-spacing="0.4" textLength="39.8" lengthAdjust="spacingAndGlyphs">ONLINE</text>
+</svg>
