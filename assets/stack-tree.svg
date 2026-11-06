@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="142" viewBox="0 0 470 142" role="img" aria-label="Stack tree: frontend nextjs react typescript tailwind; backend nodejs express mongodb supabase; ai gemini vapi n8n; infra docker vercel render clerk stream">
+<rect x="0.5" y="0.5" width="469" height="141" rx="6" fill="#0D1117" stroke="#30363D"/>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="11" xml:space="preserve">
+<text x="16" y="21"><tspan fill="#8B949E">saad@github</tspan><tspan fill="#484F58">:~$</tspan><tspan fill="#C9D1D9"> tree ~/stack</tspan></text>
+<text x="454" y="21" text-anchor="end" fill="#8B949E">4 dirs · 16 tools</text>
+</g>
+<g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace" font-size="12" xml:space="preserve">
+<text x="16" y="46" fill="#39FF14" font-weight="bold">~/stack</text>
+<text x="16" y="66.0"><tspan fill="#484F58">├─ </tspan><tspan fill="#C9D1D9">frontend</tspan>  <tspan fill="#39FF14">→ </tspan><tspan fill="#8B949E">nextjs · react · typescript · tailwind</tspan></text>
+<text x="16" y="85.5"><tspan fill="#484F58">├─ </tspan><tspan fill="#C9D1D9">backend</tspan>   <tspan fill="#39FF14">→ </tspan><tspan fill="#8B949E">nodejs · express · mongodb · supabase</tspan></text>
+<text x="16" y="105.0"><tspan fill="#484F58">├─ </tspan><tspan fill="#C9D1D9">ai</tspan>        <tspan fill="#39FF14">→ </tspan><tspan fill="#8B949E">gemini · vapi · n8n</tspan></text>
+<text x="16" y="124.5"><tspan fill="#484F58">└─ </tspan><tspan fill="#C9D1D9">infra</tspan>     <tspan fill="#39FF14">→ </tspan><tspan fill="#8B949E">docker · vercel · render · clerk · stream</tspan></text>
+</g>
+<rect x="424" y="113" width="7" height="13" fill="#39FF14" opacity="0"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.45;0.5;1" dur="1.1s" repeatCount="indefinite"/></rect>
+</svg>

@@ -21,25 +21,21 @@
 
 ## `$ ls -la ~/projects`
 
-`001` **AuraLearn**<br>AI SaaS LMS with voice tutors and subscription billing.<br>`Next.js` `Supabase` `VAPI` · [live](https://aura-learn-six.vercel.app/) · [src](https://github.com/AlphaBeast97/AuraLearn)
+`001` **AuraLearn** <img src="assets/pill-live.svg" height="16" alt="Live" /><br>├── AI SaaS LMS with voice tutors and subscription billing.<br>└── `Next.js` `Supabase` `VAPI` · [live](https://aura-learn-six.vercel.app/) · [src](https://github.com/AlphaBeast97/AuraLearn)
 
-`002` **MAD Researcher**<br>Multi-agent research engine that plans, searches, and writes cited reports.<br>`React` `Node.js` `MongoDB` · [live](https://mad-researcher-web.onrender.com/) · [src](https://github.com/AlphaBeast97/deep-research-ai-platform)
+`002` **MAD Researcher** <img src="assets/pill-live.svg" height="16" alt="Live" /><br>├── Multi-agent research engine that plans, searches, and writes cited reports.<br>└── `React` `Node.js` `MongoDB` · [live](https://mad-researcher-web.onrender.com/) · [src](https://github.com/AlphaBeast97/deep-research-ai-platform)
 
-`003` **RelayIt**<br>Video conferencing with recordings and multiple layouts.<br>`Next.js` `Stream` `Clerk` · [live](https://relayit.vercel.app/) · [src](https://github.com/AlphaBeast97/RelayIt)
+`003` **RelayIt** <img src="assets/pill-live.svg" height="16" alt="Live" /><br>├── Video conferencing with recordings and multiple layouts.<br>└── `Next.js` `Stream` `Clerk` · [live](https://relayit.vercel.app/) · [src](https://github.com/AlphaBeast97/RelayIt)
 
-`004` **Raabta**<br>Real-time chat with voice notes and media sharing.<br>`React` `Socket.io` `MongoDB` · [live](https://raabta-mm3a.onrender.com/) · [src](https://github.com/AlphaBeast97/raabta)
+`004` **Raabta** <img src="assets/pill-live.svg" height="16" alt="Live" /><br>├── Real-time chat with voice notes and media sharing.<br>└── `React` `Socket.io` `MongoDB` · [live](https://raabta-mm3a.onrender.com/) · [src](https://github.com/AlphaBeast97/raabta)
 
-`005` **Culinary Canvas**<br>AI recipes from photos or ingredients.<br>`Next.js` `Gemini` `MongoDB` · [live](https://mega-project-livid.vercel.app/) · [src](https://github.com/AlphaBeast97/MegaProject)
+`005` **Culinary Canvas** <img src="assets/pill-live.svg" height="16" alt="Live" /><br>├── AI recipes from photos or ingredients.<br>└── `Next.js` `Gemini` `MongoDB` · [live](https://mega-project-livid.vercel.app/) · [src](https://github.com/AlphaBeast97/MegaProject)
 
 ## `$ tree ~/stack`
 
-```console
-~/stack
-├── frontend  → nextjs · react · typescript · tailwind
-├── backend   → nodejs · express · mongodb · supabase
-├── ai        → gemini · vapi · n8n
-└── infra     → docker · vercel · render · clerk · stream
-```
+<p align="center">
+<img width="470" src="assets/stack-tree.svg" alt="Stack tree — frontend: nextjs, react, typescript, tailwind; backend: nodejs, express, mongodb, supabase; ai: gemini, vapi, n8n; infra: docker, vercel, render, clerk, stream" />
+</p>
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=nextjs,react,ts,js,tailwind,nodejs,express,mongodb,supabase,docker,vercel,git&theme=dark&perline=6" alt="Tech stack" />
@@ -50,7 +46,7 @@
 <div align="center">
 
 <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AlphaBeast97&theme=github_dark&bg_color=0D1117&border_color=30363D&title_color=39FF14&text_color=C9D1D9&icon_color=39FF14&chart_color=39FF14&hide_logo=true&animation=draw" alt="GitHub stats" />
-<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AlphaBeast97&theme=github_dark&bg_color=0D1117&border_color=30363D&title_color=39FF14&text_color=C9D1D9&icon_color=39FF14&chart_color=39FF14&animation=draw" alt="Top languages" />
+<img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AlphaBeast97&theme=github_dark&bg_color=0D1117&border_color=30363D&title_color=39FF14&text_color=C9D1D9&icon_color=39FF14&chart_color=39FF14&hide_logo=true&animation=draw" alt="Top languages" />
 
 </div>
 
@@ -66,13 +62,9 @@
 
 </div>
 
-<details>
-<summary><code>$ sudo rm -rf doubts</code></summary>
-<br />
-
-Permission granted. If you have an interesting problem — AI, real-time, or infra — my inbox is open.
-
-</details>
+<div align="center">
+<img width="470" src="assets/contribution-snake.svg" alt="Contribution snake — an animated snake sweeps the real GitHub contribution graph; refreshed daily" />
+</div>
 
 ```console
 saad@github:~$ exit

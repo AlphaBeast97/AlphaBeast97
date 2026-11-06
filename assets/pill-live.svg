@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="18" viewBox="0 0 44 18" role="img" aria-label="LIVE">
+  <rect x="0.5" y="0.5" width="43" height="17" rx="3" fill="#0D1117" stroke="#39FF14" stroke-opacity="0.55"/>
+  <circle cx="8" cy="9" r="2.2" fill="#39FF14"/>
+  <text x="14" y="12.4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="8.5" font-weight="600" fill="#39FF14" letter-spacing="0.6">LIVE</text>
+</svg>
