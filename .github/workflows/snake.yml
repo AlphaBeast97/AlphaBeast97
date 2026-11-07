@@ -2,7 +2,7 @@ name: Contribution snake
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    - cron: "17 4,16 * * *"
   workflow_dispatch:
   push:
     paths:
