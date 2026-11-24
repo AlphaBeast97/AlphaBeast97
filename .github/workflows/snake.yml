@@ -9,6 +9,10 @@ on:
       - scripts/generate_snake.py
       - .github/workflows/snake.yml
 
+concurrency:
+  group: snake
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
@@ -24,11 +28,13 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # shortcut: GITHUB_TOKEN cannot see private repos; keep the approved count until it changes
-        run: python scripts/generate_snake.py --repos 32
+        run: python scripts/generate_snake.py --repos ${{ vars.REPOS || 32 }}
       - name: Commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets/contribution-snake.svg
-          git diff --cached --quiet || git commit -m "chore: refresh contribution snake"
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh contribution snake"
+          git pull --rebase
           git push
