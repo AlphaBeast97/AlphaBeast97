@@ -12,7 +12,7 @@ PAD = 16
 CELL, GAP = 7.4, 0.9
 GRID_Y = 32
 COLS, ROWS = 53, 7
-GRID_DUR, TOTAL_DUR = 13.0, 14.0
+TOTAL_DUR = 14.0
 FILLS = ["#161B22", "#0E4429", "#006D32", "#26A641", "#39FF14"]
 MONO = "ui-monospace,SFMono-Regular,Menlo,Consolas,'DejaVu Sans Mono',monospace"
 
@@ -67,7 +67,7 @@ def levels(counts):
 
 def build(user):
     cal = user["contributionsCollection"]["contributionCalendar"]
-    weeks = cal["weeks"]
+    weeks = cal["weeks"][-COLS:]
     days = [d["contributionCount"] for w in weeks for d in w["contributionDays"]]
     total = cal["totalContributions"]
     repos = user["repositories"]["totalCount"]
@@ -78,18 +78,21 @@ def build(user):
     x0 = PAD
     y0 = GRID_Y
     step = CELL + GAP
-    centers = []
-    for col in range(COLS):
-        rows = range(ROWS) if col % 2 == 0 else range(ROWS - 1, -1, -1)
-        for row in rows:
-            centers.append((x0 + col * step + CELL / 2, y0 + row * step + CELL / 2))
 
-    # Head path sweeps the grid column by column, then exits right.
-    # Relative to the first cell so the static fallback sits on the grid.
-    ox, oy = centers[0]
-    rel = [(x - ox, y - oy) for x, y in centers]
-    path = "M" + " L".join(f"{x:.1f} {y:.1f}" for x, y in rel)
-    path += f" L{W + 12 - ox:.1f} {rel[-1][1]:.1f}"
+    # Head path: only the turn points of the column-by-column sweep, then exit right.
+    first = (x0 + CELL / 2, y0 + CELL / 2)
+    pts = []
+    for col in range(COLS):
+        cx = x0 + col * step + CELL / 2
+        end_y = y0 + (ROWS - 1 if col % 2 == 0 else 0) * step + CELL / 2
+        pts.append((cx, end_y))
+        if col < COLS - 1:
+            pts.append((cx + step, end_y))
+    last_x, last_y = pts[-1]
+    pts.append((W + 12, last_y))
+    ox, oy = first
+    path = "M0 0 " + " ".join(f"L{x - ox:.1f} {y - oy:.1f}" for x, y in pts)
+    total_len = (COLS * ROWS - 1) * step + (W + 12 - last_x)
 
     out = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" '
@@ -114,17 +117,20 @@ def build(user):
     # Grid: one group per level keeps the file small.
     groups = {i: [] for i in range(5)}
     for col in range(COLS):
-        week = by_week[col] if col < len(by_week) else [0] * ROWS
+        if col >= len(by_week):
+            continue
+        week = by_week[col]
         for row in range(ROWS):
-            count = week[row] if row < len(week) else 0
-            lv = level(count)
+            if row >= len(week):
+                continue  # future days
+            lv = level(week[row])
             x = x0 + col * step
             y = y0 + row * step
             idx = col * ROWS + (row if col % 2 == 0 else ROWS - 1 - row)
             if lv == 0:
                 groups[0].append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{CELL}" height="{CELL}" rx="1.5"/>')
             else:
-                k = idx * (GRID_DUR / (len(centers) - 1)) / TOTAL_DUR
+                k = idx * step / total_len
                 k2 = min(k + 0.0015, 0.999)
                 groups[lv].append(
                     f'<rect x="{x:.1f}" y="{y:.1f}" width="{CELL}" height="{CELL}" rx="1.5" opacity="0.22">'
