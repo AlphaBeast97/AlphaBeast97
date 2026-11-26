@@ -320,6 +320,7 @@
 <rect x="422.7" y="40.3" width="7.4" height="7.4" rx="1.5"/>
 <rect x="422.7" y="56.9" width="7.4" height="7.4" rx="1.5"/>
 <rect x="422.7" y="65.2" width="7.4" height="7.4" rx="1.5"/>
+<rect x="447.6" y="65.2" width="7.4" height="7.4" rx="1.5"/>
 </g>
 <g fill="#0E4429">
 <rect x="90.7" y="48.6" width="7.4" height="7.4" rx="1.5" opacity="0.22"><animate attributeName="opacity" values="0.22;0.22;1;1" keyTimes="0;0.1793;0.1808;1" dur="14s" repeatCount="indefinite"/></rect>
